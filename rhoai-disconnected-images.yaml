@@ -1,2 +1,3 @@
 additional-images:
 - quay.io/modh/fms-hf-tuning@sha256:8edea6f0f9c4c631cdca1e1c10abf0d4b994738fde78c40d48eda216fdd382f5
+- quay.io/modh/ray@sha256:8b9e0efa3ae0e1862d66c02ffa82b80830334a5f8af12deb96d4f2f8babce5fe
