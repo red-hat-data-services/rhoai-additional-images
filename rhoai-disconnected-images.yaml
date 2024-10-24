@@ -2,4 +2,5 @@ additional-images:
 - quay.io/modh/fms-hf-tuning@sha256:8edea6f0f9c4c631cdca1e1c10abf0d4b994738fde78c40d48eda216fdd382f5
 - quay.io/modh/ray@sha256:2cdacde3f6f0ee5843b2f7151130b91c5dfec4cea3e470720722c2fdb0779495
 - quay.io/modh/ray@sha256:0d715f92570a2997381b7cafc0e224cfa25323f18b9545acfd23bc2b71576d06
-- quay.io/modh/training@sha256:3f65ae8f27cef8a2bdb169ca9bdb956cc14278343317d64c4dc42994673aea0f
+- quay.io/modh/training@sha256:8bb71d751b0987e254cf4484ff5e7bcb28c2a86d261edbe1d9bf420c614646fd
+- quay.io/modh/training@sha256:5ed85bddd7854712dd5ccebd63407d314177020e40ac450a56ac6bad410b00cd
