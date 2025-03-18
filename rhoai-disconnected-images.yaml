@@ -4,6 +4,6 @@ additional-images:
 - quay.io/modh/ray@sha256:0d715f92570a2997381b7cafc0e224cfa25323f18b9545acfd23bc2b71576d06
 - quay.io/modh/ray@sha256:db667df1bc437a7b0965e8031e905d3ab04b86390d764d120e05ea5a5c18d1b4
 - quay.io/modh/ray@sha256:baeb1428a008ff109ae1afb372f804c574b4179cfa84c752f7afc609e0d44b3a
-- quay.io/modh/training@sha256:351566d361b7a00bfbcfabb79c211837e1253d39f3f92c81e945b91fab09695c
-- quay.io/modh/training@sha256:e2467f2b1aba44ce78afa2107d890257122a21e5edab802c82cb3e6183511e9a
+- quay.io/modh/training@sha256:0b1f2e3e7eebc5404cebbd2c4f960dc3bc40d453bcd8d33a53618baafedd6091
+- quay.io/modh/training@sha256:58d8e01d6d29e9e54ec1e21f534959abcd6835fbda6b845c8f29fdc93a519aab
 - registry.redhat.io/rhelai1/instructlab-nvidia-rhel9@sha256:b3dc9af0244aa6b84e6c3ef53e714a316daaefaae67e28de397cd71ee4b2ac7e
