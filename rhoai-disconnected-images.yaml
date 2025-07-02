@@ -3,8 +3,8 @@ additional-images:
 - quay.io/modh/fms-hf-tuning@sha256:1ad46fe1a23f41f190c49ec2549c64f484c88fe220888a7a5700dd857ca243cc
 # Corresponds to quay.io/modh/ray:2.46.0-py311-cu121
 - quay.io/modh/ray@sha256:a5b7c04a14f180d7ca6d06a5697f6bb684e40a26b95a0c872cac23b552741707
-# Corresponds to quay.io/modh/ray:2.46.0-py311-rocm62
-- quay.io/modh/ray@sha256:48c7864989c8f22ef07772c698b761f5c1b58c6781e7a99518204d521bf56a4c
+# Corresponds to quay.io/modh/ray:2.47.1-py311-rocm62
+- quay.io/modh/ray@sha256:6091617d45d5681058abecda57e0ee33f57b8855618e2509f1a354a20cc3403c
 # Corresponds to quay.io/modh/training:py311-cuda121-torch241
 - quay.io/modh/training@sha256:f64f7bba3f1020d39491ac84d40d362a52e4822bdc11a33cfff021178b7c4097
 # Corresponds to quay.io/modh/training:py311-cuda124-torch251
