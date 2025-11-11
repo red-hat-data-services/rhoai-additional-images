@@ -23,6 +23,8 @@ additional-images:
 - registry.redhat.io/rhelai1/instructlab-nvidia-rhel9@sha256:b3dc9af0244aa6b84e6c3ef53e714a316daaefaae67e28de397cd71ee4b2ac7e
 # https://redhat-internal.slack.com/archives/C09B6R3Q0KU/p1760628791523959?thread_ts=1760619128.840349&cid=C09B6R3Q0KU
 - registry.redhat.io/openshift4/ose-oauth-proxy-rhel9@sha256:d3056b35d9a205b9f2c48d924f199c5ac23904eb18d526e4bff229e7c7181415
+# https://issues.redhat.com/browse/RHOAIENG-38570 https://redhat-internal.slack.com/archives/C09GK0M9YKD/p1762810329993509?thread_ts=1762809847.667869&cid=C09GK0M9YKD
+- registry.redhat.io/rhel9/postgresql-16:latest@sha256:3ffdde9a8e930b9cc95d659606487aac1d4d46691c04d2d926a49256d3aee6de"
 # notebooks param.env images
 - quay.io/modh/odh-minimal-notebook-container@sha256:2217d8a9cbf84c2bd3e6c6dc09089559e8a3905687ca3739e897c4b45e2b00b3
 - quay.io/modh/odh-minimal-notebook-container@sha256:e2296a1386e4d9756c386b4c7dc44bac6f61b99b3b894a10c9ff2d8d5602ca4e
