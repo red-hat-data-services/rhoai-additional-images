@@ -4,12 +4,14 @@ additional-images:
 - quay.io/modh/fms-hf-tuning@sha256:83f70e981657728ef9929fa50d06fe5c72f364e5ed41a9fc1331e99751f610e8
 # Corresponds to quay.io/modh/ray:2.52.1-py311-cu121
 - quay.io/modh/ray@sha256:595b3acd10244e33fca1ed5469dccb08df66f470df55ae196f80e56edf35ad5a
-# Corresponds to quay.io/modh/ray:2.52.1-py312-cu128
-- quay.io/modh/ray@sha256:6b135421b6e756593a58b4df6664f82fc4b55237ca81475f2867518f15fe6d84
+# Corresponds to quay.io/modh/ray:2.53.0-py312-cu128
+- quay.io/modh/ray@sha256:7b9c6d524b64a07746caa7dc89e691fc40eb4c2b4e41ffde8361bcd8d3c94d68
 # Corresponds to quay.io/modh/ray:2.52.1-py311-rocm61
 - quay.io/modh/ray@sha256:28a8745be454b0e881ce6c200599ddfcb3366b707a5b53cfa73087d599555158
 # Corresponds to quay.io/modh/ray:2.52.1-py312-rocm62
 - quay.io/modh/ray@sha256:900c35ec2fe4279b958e044c781a179c8cfe0c584e8af16e253814dba01816e6
+# Corresponds to quay.io/modh/ray:2.53.0-py312-rocm64
+- quay.io/modh/ray@sha256:4f771205ce0afc8ac69ce7c997bbae37e18d1077a3bb99b3af7ea8071884af57
 # notebooks param.env images (deprecated)
 - quay.io/modh/odh-minimal-notebook-container@sha256:2217d8a9cbf84c2bd3e6c6dc09089559e8a3905687ca3739e897c4b45e2b00b3
 - quay.io/modh/odh-minimal-notebook-container@sha256:e2296a1386e4d9756c386b4c7dc44bac6f61b99b3b894a10c9ff2d8d5602ca4e
