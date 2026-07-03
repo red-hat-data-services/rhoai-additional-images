@@ -8,6 +8,8 @@ additional-images:
 - quay.io/modh/ray@sha256:7b9c6d524b64a07746caa7dc89e691fc40eb4c2b4e41ffde8361bcd8d3c94d68
 # Corresponds to quay.io/modh/ray:2.54.1-py312-cu128
 - quay.io/modh/ray@sha256:42fbc5d898cb9c7d202ee89308ef328838d42985ec384f2476d8f3356acd01cb
+# Corresponds to quay.io/modh/ray:2.55.1-py312-cu128
+- quay.io/modh/ray@sha256:e29b721f02896093fa8d128d7838200d42f0b3d6ae7d680c1e643e1dd469abe5
 # Corresponds to quay.io/modh/ray:2.52.1-py311-rocm61
 - quay.io/modh/ray@sha256:28a8745be454b0e881ce6c200599ddfcb3366b707a5b53cfa73087d599555158
 # Corresponds to quay.io/modh/ray:2.52.1-py312-rocm62
@@ -16,6 +18,8 @@ additional-images:
 - quay.io/modh/ray@sha256:4f771205ce0afc8ac69ce7c997bbae37e18d1077a3bb99b3af7ea8071884af57
 # Corresponds to quay.io/modh/ray:2.54.1-py312-rocm64
 - quay.io/modh/ray@sha256:d2af8349f4281e89915407a1439d374d8a2a763ae3f692d3663494f831a34c9b
+# Corresponds to quay.io/modh/ray:2.55.1-py312-rocm64
+- quay.io/modh/ray@sha256:31023d53c31f13fe863979426fd2b69c20856d02b749f16707926eb945edda9e
 # notebooks param.env images (deprecated)
 # 2025-1 images (deprecated)
 - registry.redhat.io/rhoai/odh-workbench-jupyter-minimal-cpu-py311-rhel9@sha256:2b00a5b676b07d4fd6ab894d5dcaeb5bf88ef35bde76cbf3b4c0951987e5aad6
