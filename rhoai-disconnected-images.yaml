@@ -10,6 +10,8 @@ additional-images:
 - quay.io/modh/ray@sha256:42fbc5d898cb9c7d202ee89308ef328838d42985ec384f2476d8f3356acd01cb
 # Corresponds to quay.io/modh/ray:2.55.1-py312-cu128
 - quay.io/modh/ray@sha256:e29b721f02896093fa8d128d7838200d42f0b3d6ae7d680c1e643e1dd469abe5
+# Corresponds to quay.io/modh/ray:2.55.1-py312-cu129-th081
+- quay.io/modh/ray@sha256:f63a015302758f805e5332605669b886e4d7ac60ec929413a2ffc19a904211c6
 # Corresponds to quay.io/modh/ray:2.52.1-py311-rocm61
 - quay.io/modh/ray@sha256:28a8745be454b0e881ce6c200599ddfcb3366b707a5b53cfa73087d599555158
 # Corresponds to quay.io/modh/ray:2.52.1-py312-rocm62
