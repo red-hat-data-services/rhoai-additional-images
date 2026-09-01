@@ -12,20 +12,25 @@ additional-images:
 - quay.io/modh/ray@sha256:28a8745be454b0e881ce6c200599ddfcb3366b707a5b53cfa73087d599555158
 # Corresponds to quay.io/modh/ray:2.55.1-py312-rocm64
 - quay.io/modh/ray@sha256:31023d53c31f13fe863979426fd2b69c20856d02b749f16707926eb945edda9e
-# notebooks param.env images (deprecated)
-# 2025-1 images (deprecated)
-- registry.redhat.io/rhoai/odh-workbench-jupyter-minimal-cpu-py311-rhel9@sha256:2b00a5b676b07d4fd6ab894d5dcaeb5bf88ef35bde76cbf3b4c0951987e5aad6
-- registry.redhat.io/rhoai/odh-workbench-jupyter-minimal-cuda-py311-rhel9@sha256:481c5f3749efb85300ed6076a5b05ca5be1ceda17518791db3a67c7b1fa24941
-- registry.redhat.io/rhoai/odh-workbench-jupyter-minimal-rocm-py311-rhel9@sha256:4cc172aab8be2ba278a9525ef0878c68d76963beb9506c8526c07d5b90b1eb58
-- registry.redhat.io/rhoai/odh-workbench-jupyter-datascience-cpu-py311-rhel9@sha256:bd6528eddad7106704c9f78bd25d47bd5a556ecc0e35db317a0e95428be6d025
-- registry.redhat.io/rhoai/odh-workbench-jupyter-pytorch-cuda-py311-rhel9@sha256:384f2ea2df8ccf1978ba633a0b32332e12a4c8d026967ff93e7b8fb0928c8265
-- registry.redhat.io/rhoai/odh-workbench-jupyter-pytorch-rocm-py311-rhel9@sha256:8270d5c58389d0f7ed086336c730060c3792453a4ddc08f0bc622677edd3e0fd
-- registry.redhat.io/rhoai/odh-workbench-jupyter-tensorflow-cuda-py311-rhel9@sha256:a2f863e8df080b683f52453b3a3b8c1f70a50c9bbe9480d7a55da8f0d54fbee2
-- registry.redhat.io/rhoai/odh-workbench-jupyter-tensorflow-rocm-py311-rhel9@sha256:4d1b945221fe7f3e7a486277f27529b9ba2b73b03b9a7e2a3382c133671fcff3
-- registry.redhat.io/rhoai/odh-workbench-jupyter-trustyai-cpu-py311-rhel9@sha256:4331bd07ffb9676a3d9f387b56148e679e0bc50a05dbcc5e693df5aafb097bc0
-- registry.redhat.io/rhoai/odh-workbench-codeserver-datascience-cpu-py311-rhel9@sha256:755f8dacf495f6abb29233edb422ca473ba82cc23370d4fcbaa4f938e90a9c25
-# 2025-2 workbench images (additional) (TODO: On 3.6 these images should be droped from the additioanl image list but keep them on the unsupported list)
-# Their inclusion on 3.5 is because of RHAIRFE-895
+# 3.4 training runtime images (additional) - RHOAIENG-75433
+- registry.redhat.io/rhoai/odh-th06-cuda130-torch210-py312-rhel9@sha256:c18bb50a0082f9258afeb95cf9d8bbc6af7a48e712a7587073f2b281ca2200b8
+- registry.redhat.io/rhoai/odh-th06-rocm64-torch291-py312-rhel9@sha256:3f3fdca286cfa6ab1f48cdfa109e78e6c8615f823568bb8cc18263db42f1beed
+- registry.redhat.io/rhoai/odh-th06-cpu-torch210-py312-rhel9@sha256:4b762d722faa80d7c6641a631d891f0ddf048950a4f8b6e5b93010d65134687d
+
+# Notebooks N-1 images. Addidtional list:
+# 3.5: images
+- registry.redhat.io/rhoai/odh-workbench-jupyter-minimal-cpu-py312-rhel9@sha256:4e0c3457dc3d9fd552a367f0d17f838e7021f0b479a0a1f4bfeacb7fda6375e0
+- registry.redhat.io/rhoai/odh-workbench-jupyter-minimal-cuda-py312-rhel9@sha256:2bb6a58b9455f1ca48793955a0ab4b9f4429fbbf3b6d99a5eee102f0c29a7bcd
+- registry.redhat.io/rhoai/odh-workbench-jupyter-minimal-rocm-py312-rhel9@sha256:f0e01346fd678d592b5d021a82aee96ec83bf29201602dfc544dd5921519c9f9
+- registry.redhat.io/rhoai/odh-workbench-jupyter-datascience-cpu-py312-rhel9@sha256:bc8502bebfc7b07b54960545aa60377a1c67008418c8a5b11dcd4595dae85076
+- registry.redhat.io/rhoai/odh-workbench-jupyter-pytorch-cuda-py312-rhel9@sha256:32ad6f55c054f32b4345c12597fccbaac8bee2304dd3c051a20464d02892d9e7
+- registry.redhat.io/rhoai/odh-workbench-jupyter-pytorch-rocm-py312-rhel9@sha256:6a448ea7cb25ad8b29d06931addb7f866b719b47976f39782b2d1e21cfcd1b67
+- registry.redhat.io/rhoai/odh-workbench-jupyter-tensorflow-cuda-py312-rhel9@sha256:ccaa644e04ee7272154f39f266ecc9fee44e8026686dcf828afb98227afad146
+- registry.redhat.io/rhoai/odh-workbench-jupyter-tensorflow-rocm-py312-rhel9@sha256:e3b932219250e7db8a060cd439013b40cce7298bc51433b7bbf8eb293a51b9e0
+- registry.redhat.io/rhoai/odh-workbench-jupyter-trustyai-cpu-py312-rhel9@sha256:949cf48e74f6c54d95627a3cd85832ff85cb469e4943c879a8e03d8ef1d2ee4e
+- registry.redhat.io/rhoai/odh-workbench-codeserver-datascience-cpu-py312-rhel9@sha256:96a22d9697b6b57d639c9801c6d834f48b3a42316b9c508f3a2cd55ed497085c
+- registry.redhat.io/rhoai/odh-workbench-jupyter-pytorch-llmcompressor-cuda-py312-rhel9@sha256:c3135b6ba4e9c6d6475856c18340492ce9e42d03e73401e30389f62a2cba3a15
+# 2025-2: their inclusion on upcoming releases is due to RHAIRFE-895
 - registry.redhat.io/rhoai/odh-workbench-jupyter-minimal-cpu-py312-rhel9@sha256:792c7c809440655e19da5d50e4b7568f39b403e61eeacd9e0fa095fc01a5e167
 - registry.redhat.io/rhoai/odh-workbench-jupyter-minimal-cuda-py312-rhel9@sha256:bd15088088dd6258da62e6658fa66790036acc6bb9af43bdcc240b389ef52f47
 - registry.redhat.io/rhoai/odh-workbench-jupyter-minimal-rocm-py312-rhel9@sha256:9ba87a487d36694890868b26da34e8d4421488c5c862cc7409d26ee8aa0af63d
@@ -37,7 +42,7 @@ additional-images:
 - registry.redhat.io/rhoai/odh-workbench-jupyter-trustyai-cpu-py312-rhel9@sha256:33c5f1f41404cb9b493cc69197f6faef23da54dcab2d292775fe37f6eaae6852
 - registry.redhat.io/rhoai/odh-workbench-codeserver-datascience-cpu-py312-rhel9@sha256:8a82997a29741ecf41492c7aa5c9ee57aa0e7c3bcda1fc854c1ae8686632a36f
 - registry.redhat.io/rhoai/odh-workbench-jupyter-pytorch-llmcompressor-cuda-py312-rhel9@sha256:3e8f45e17ec6d8ad6150835d8566a611de83fde0a45c56ce09efa02b1074c480
-# 2025-2 pipeline images (additional)
+# 2025-2: pipeline images, their inclusion on upcoming releases is due to RHAIRFE-895
 - registry.redhat.io/rhoai/odh-pipeline-runtime-datascience-cpu-py312-rhel9@sha256:22ea9fc4352ec427a240fb983afb0ad3e7c1b2f2dc97bce4587695777f23ef07
 - registry.redhat.io/rhoai/odh-pipeline-runtime-minimal-cpu-py312-rhel9@sha256:d3d4d82d0685feb25ec91cf8928dc5c5859436f44a21cd93b5d2ce7c1869a603
 - registry.redhat.io/rhoai/odh-pipeline-runtime-pytorch-cuda-py312-rhel9@sha256:8b059881d8d7ef85883c7672a4464368ae564f2ce6104d54ebb03ac5d152d536
@@ -46,7 +51,19 @@ additional-images:
 - registry.redhat.io/rhoai/odh-pipeline-runtime-tensorflow-rocm-py312-rhel9@sha256:a4cfdf3f66e855efd3809f83e806becd5f30a8e18e73ef157f81aab37f07cd47
 - registry.redhat.io/rhoai/odh-pipeline-runtime-tensorflow-cuda-py312-rhel9@sha256:917272fc0483b20ac426626f5ee5bcdcbc4c88b5bbdbf00cf00a7a59d6bf5686
 
-# 3.4 images (additional) 
+# Notebooks N-x images. Deprecated list:
+# 2025-1: images
+- registry.redhat.io/rhoai/odh-workbench-jupyter-minimal-cpu-py311-rhel9@sha256:2b00a5b676b07d4fd6ab894d5dcaeb5bf88ef35bde76cbf3b4c0951987e5aad6
+- registry.redhat.io/rhoai/odh-workbench-jupyter-minimal-cuda-py311-rhel9@sha256:481c5f3749efb85300ed6076a5b05ca5be1ceda17518791db3a67c7b1fa24941
+- registry.redhat.io/rhoai/odh-workbench-jupyter-minimal-rocm-py311-rhel9@sha256:4cc172aab8be2ba278a9525ef0878c68d76963beb9506c8526c07d5b90b1eb58
+- registry.redhat.io/rhoai/odh-workbench-jupyter-datascience-cpu-py311-rhel9@sha256:bd6528eddad7106704c9f78bd25d47bd5a556ecc0e35db317a0e95428be6d025
+- registry.redhat.io/rhoai/odh-workbench-jupyter-pytorch-cuda-py311-rhel9@sha256:384f2ea2df8ccf1978ba633a0b32332e12a4c8d026967ff93e7b8fb0928c8265
+- registry.redhat.io/rhoai/odh-workbench-jupyter-pytorch-rocm-py311-rhel9@sha256:8270d5c58389d0f7ed086336c730060c3792453a4ddc08f0bc622677edd3e0fd
+- registry.redhat.io/rhoai/odh-workbench-jupyter-tensorflow-cuda-py311-rhel9@sha256:a2f863e8df080b683f52453b3a3b8c1f70a50c9bbe9480d7a55da8f0d54fbee2
+- registry.redhat.io/rhoai/odh-workbench-jupyter-tensorflow-rocm-py311-rhel9@sha256:4d1b945221fe7f3e7a486277f27529b9ba2b73b03b9a7e2a3382c133671fcff3
+- registry.redhat.io/rhoai/odh-workbench-jupyter-trustyai-cpu-py311-rhel9@sha256:4331bd07ffb9676a3d9f387b56148e679e0bc50a05dbcc5e693df5aafb097bc0
+- registry.redhat.io/rhoai/odh-workbench-codeserver-datascience-cpu-py311-rhel9@sha256:755f8dacf495f6abb29233edb422ca473ba82cc23370d4fcbaa4f938e90a9c25
+# 3.4: images
 - registry.redhat.io/rhoai/odh-workbench-jupyter-minimal-cpu-py312-rhel9@sha256:01b22d2179dfa4cb57ff042a2c87c9082e2c57f331b818218b690c9a747b168e
 - registry.redhat.io/rhoai/odh-workbench-jupyter-minimal-cuda-py312-rhel9@sha256:8bacb849ae17424c4b613ed50089ae24b7ea69e92cdb4f558f561d2031e153b9
 - registry.redhat.io/rhoai/odh-workbench-jupyter-minimal-rocm-py312-rhel9@sha256:496b9ff80594d486f594bba69652c3ae4445265b94a44995b25f5ebd1e5767b3
@@ -58,7 +75,3 @@ additional-images:
 - registry.redhat.io/rhoai/odh-workbench-jupyter-trustyai-cpu-py312-rhel9@sha256:cada04c9bd1c8ad4e167dfbbde3b3b955b6a6d322726602c8b109a986d62ac73
 - registry.redhat.io/rhoai/odh-workbench-codeserver-datascience-cpu-py312-rhel9@sha256:05bf03b4b7858cfd60f46f8b58206bba20d95b5b16e99443417fef7425b1bb04
 - registry.redhat.io/rhoai/odh-workbench-jupyter-pytorch-llmcompressor-cuda-py312-rhel9@sha256:3fe23bc6e7689dc4d825a1d44f05d226009caebcf9602ec1ec7529f855af067b
-# 3.4 training runtime images (additional) - RHOAIENG-75433
-- registry.redhat.io/rhoai/odh-th06-cuda130-torch210-py312-rhel9@sha256:c18bb50a0082f9258afeb95cf9d8bbc6af7a48e712a7587073f2b281ca2200b8
-- registry.redhat.io/rhoai/odh-th06-rocm64-torch291-py312-rhel9@sha256:3f3fdca286cfa6ab1f48cdfa109e78e6c8615f823568bb8cc18263db42f1beed
-- registry.redhat.io/rhoai/odh-th06-cpu-torch210-py312-rhel9@sha256:4b762d722faa80d7c6641a631d891f0ddf048950a4f8b6e5b93010d65134687d
