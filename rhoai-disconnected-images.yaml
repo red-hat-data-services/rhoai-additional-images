@@ -9,6 +9,11 @@ additional-images:
 - quay.io/modh/ray@sha256:28a8745be454b0e881ce6c200599ddfcb3366b707a5b53cfa73087d599555158
 # Corresponds to quay.io/modh/ray:2.52.1-py312-rocm62
 - quay.io/modh/ray@sha256:900c35ec2fe4279b958e044c781a179c8cfe0c584e8af16e253814dba01816e6
+# RHOAI 3.5 replacements for offboarded RHOAI 2.25 training images
+- quay.io/rhoai/odh-training-cuda128-torch28-py312-rhel9@sha256:0e246b98191baab0c941d385d5395d3daf9f8e21ef81fbdad743bac67539395f
+- quay.io/rhoai/odh-training-rocm64-torch28-py312-rhel9@sha256:8a6ac7de784713695a94573eaa5fc5425541966f5702e3d9738df8754e8fe2a5
+- quay.io/rhoai/odh-training-cuda128-torch29-py312-rhel9@sha256:a211c710baf687e5250f43c76c7b7184411e55fdd76dab3fce6fc06e4a4d959c
+- quay.io/rhoai/odh-training-rocm64-torch29-py312-rhel9@sha256:1a92fa96322103ac7f6704c3dc3e28925c32b5bd055353ae51bb9de85deea9f6
 # Corresponds to registry.redhat.io/rhelai1/instructlab-nvidia-rhel9:1.2
 - registry.redhat.io/rhelai1/instructlab-nvidia-rhel9@sha256:b3dc9af0244aa6b84e6c3ef53e714a316daaefaae67e28de397cd71ee4b2ac7e
 # https://redhat-internal.slack.com/archives/C09B6R3Q0KU/p1760628791523959?thread_ts=1760619128.840349&cid=C09B6R3Q0KU
